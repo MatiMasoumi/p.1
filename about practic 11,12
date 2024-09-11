@@ -1,0 +1,12 @@
+p1.py= Exercises11=Question 01 Create a Python program with below details: Input a count of students. Collect each student's unique ID, name, and score into tuples. Store these tuples in a list. Input a name to search the list. Display the matching student's details, if found.
+p2.py=Question 02 Given two lists: list1 = [1, 2, 3, 4, 5, 6, 6, 7] and list2 = [5, 6, 7, 8, 9], write a program to create a list that contains only the unique elements from both list1 and list2. (using set)
+p3.py=Question 03 Given a list items containing strings (filenames with extensions) and integers, write a Python program to extract and display the unique file extensions from the filenames in the list. Non-string items should be ignored.
+p4.py= Exercises 12=Question 01 Given dictionary books with book titles and their authors, perform the following: books = { "Book1": {"title": "Learn Python", "authors": ["Author A", "Author B"]}, "Book2": {"title": "AI Basics", "authors": ["Author C"]} } Shallow Copy Experiment: •Make a shallow copy of books. •Add "Author D" to "Book1" in this copy. •Compare changes in the original dictionary. Deep Copy Experiment: •Create a deep copy of books. •Add "Author E" to "Book1" in the deep copy. •Discuss differences observed between the shallow and deep copy results.
+p5.py=Question 02 Which type of error can’t handle by “Try, Except”? Give an example
+p6.py=Question 03 Manage the errors of the following codes.sum = 8
+numbers = [10, 12, 13]
+res = sum(numbers)
+print(res)
+numbers = [2, 3, 10, 23]
+numbers.remove(300)
+print(numbers[8])
